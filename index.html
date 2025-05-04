@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards counter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <p class="overlay">BLACKJACK</p>
+
+    <main>
+        <section class="sidenav">
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+
+        <section class="table">
+            <div class="content">
+                <div class="cards">
+                    <div class="card"></div>
+                </div>
+
+                <div class="panel">
+                    <button id="start" class="start">
+                        START
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sidesettings">
+            <h1>
+                Settings:
+            </h1>
+            
+            <div class="option" id="quantity">
+                Quantity:
+                <input type="number" class="quantity-value" value="5">
+            </div>
+            <hr>
+            <div class="option" id="speed">
+                Speed:
+                <input type="range" min="300" max="5000" id="speed-value" class="slider" value="2000">
+                <p class="range-val">2000ms</p>
+            </div>
+            <hr>
+            <div class="option" id="animation">
+                Animation:
+                <input type="checkbox" id="animation-toggle" class="animation-checkbox">
+            </div>
+        </section>
+    </main>
+    
+
+
+
+    <script src="action.js"></script>
+
+</body>
+</html>

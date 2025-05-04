@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poiret One", sans-serif;
+}
+
+body {
+    background-color: #394d3c;
+    color: white;
+    display: flex;
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    /* opacity: .33; */
+    font-size: 300%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidenav, .sidesettings {
+    display: block;
+    background-color: #233240;
+    width: 20vw;
+}
+
+.sidesettings h1 {
+    margin: 30px;
+    text-align: center;
+}
+
+.option {
+    margin: 20px;
+    font-size: 150%;
+}
+
+input {
+    /* border: 0px; */
+    outline: 0px;
+    border-radius: 100px;
+    background-color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+  }
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #3a4b5c;
+    border-radius: 10px;
+}
+
+.table {
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.card {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cards {
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    transform:scale(200%);
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.stop {
+    transform:scale(200%);
+    border: none;
+    background-color: #aa3904;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
